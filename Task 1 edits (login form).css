@@ -57,3 +57,6 @@ input[type="submit"]:hover{
      color: darkred;
     transition: 0.5s;
 }
+h1{
+    text-align: center;
+}

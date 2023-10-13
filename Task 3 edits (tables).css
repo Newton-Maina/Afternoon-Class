@@ -1,0 +1,45 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+    text-align: left;
+    justify-content: center;
+    }
+    tr{
+      border-bottom: 1px solid #CACFD2;
+    }
+
+    th,td{
+       padding: 16px 12px;
+       font-size: 22px;
+    }
+
+    th{
+     background: #138D75;
+     border-radius: 10px,0,0,0;
+    }
+
+    table th:first-child{
+      border-radius:10px 0 0 0;
+    }
+
+    table th:last-child{
+      border-radius:0 10px 0 0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #ECF0F1;
+      color: #138D75;
+    }
+    table{
+       border-collapse: collapse;
+       width: 50%;
+       border-bottom: 5px solid #138D75;
+        margin-left: 10cm;
+    }
+    .table{
+       margin:30px auto;
+       width: 50%;
+    }
